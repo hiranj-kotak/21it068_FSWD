@@ -74,18 +74,20 @@ let displayFavBooks = function (books) {
     }
 }
 
+let books = ["Harry Porrter", "The Lord of the Rings", "The Alchemist", "The Da Vinci Code", "Think and Grow Rich"];
+displayFavBooks(books);
 
 // Task 6: Scope and Hoisting
 
-// let ScopeandHoisting = function () {
-//     let vara = 100;
-//     var varb = 200;
-//     const varc = 300;
-// }
+let ScopeandHoisting = function () {
+    let vara = 100;
+    var varb = 200;
+    const varc = 300;
+}
 
-// console.log(vara);
-// console.log(varb);
-// console.log(varc);
+console.log(vara);
+console.log(varb);
+console.log(varc);
 
 // Task 7: DOM Manipulation
 
@@ -122,7 +124,7 @@ function asyncFunction(callback) {
         var result = "Operation completed.";
 
         callback(result);
-    }, 10000    );
+    }, 10000);
 }
 
 function callback(result) {
