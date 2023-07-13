@@ -1,0 +1,10 @@
+[
+    {
+        "path": "../pra3",
+        "type": "dir"
+    },
+    {
+        "path": "../pra3/index.js",
+        "type": "file"
+    }
+]
